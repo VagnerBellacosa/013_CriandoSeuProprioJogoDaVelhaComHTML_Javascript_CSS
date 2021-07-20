@@ -11,8 +11,9 @@
     <title> Tiozao's : Jogo da velha </title>
 
     <!-- Front-End -->
-    <link rel="shortcut icon" href="./img/ico_jogo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="shortcut icon" href="JogoDaVelha/img/ico_jogo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="JogoDaVelha/css/estilo.css">
+	<link rel="stylesheet" href="JogoDaVelha/css/styleVeia.css">
 	
     <!-- SEO -->
     <meta name="Generator" content="EditPlus®">
@@ -42,56 +43,68 @@
 
 <body>
 
-    <h1>        Jogo da Velha    </h1>
+	<!-- Jogo Dino Race -->
+	<div id="todas">
+		<div class="moldura-um">
+			<div class="moldura-dois">
+				<div class="conteudo">
+				</div>
+			</div>
+		</div>
+		<br><br>			
+	   
+		<p class="fa-blink">Click Start <a href="JogoDaVelha/index.html" class="fa-blink" >Tiozao Jogo da Velha </a></p>
+				
+		<div>
+			<br><br>			
+			<br><br>
 
-    <div>
-        <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
-        <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
-        <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
-    </div>
+			<h3>Jogo da Velha</h3>
 
-    <div>
-        <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
-        <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
-        <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
-    </div>
 
-    <div>
-        <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
-        <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
-        <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
-    </div>
+			<p>A referência mais antiga que se tem desse passatempo surgiu em escavações no templo de Kurna,
+			do século XIV antes de Cristo, no Egito.
+			</p>
+				<br>
 
-    <div class="jogador">
-        <label>        Jogador: </label>
-        <label id="jogador-selecionado">
+			<p>	Achados arqueológicos, porém, mostram que ele foi desenvolvido independentemente em diferentes
+			regiões do planeta, como a China antiga e a América pré-colombiana.
+			</p>
+				<br>
+	
+			<p>Sabe-se também que faz parte dos jogos conhecidos como “família do moinho” ou “trilha” – 
+			nos quais o objetivo é posicionar as peças de modo que formem uma linha reta.
+			</p>
+				<br>
+			<p>Há também versões em que variam os números de linhas e colunas, geralmente três ou cinco. 
+			</p>
+			<br>
+			<p>Conhecido praticamente em todo o mundo, o jogo varia de nome conforme a região. </p>
+			<br>
+			<p>Na China de 500 a.C., era conhecido como luk isut k-i. 
+				   	   	   </p>
+			<br>
+			<p>Nos países de língua inglesa, chama-se tic-tac-toe.	   </p>
+			<br>
+			<p>	Bom jogo a todos   </p>
+				
+		</div>
+		
+	</div>
+	
+	
 
-    </label>
-    </div>
+	<!-- Biscoito do Tiozao -->
+	
 
-    <div class="vencedor">
-        <label>
-        Vencedor:
-    </label>
-        <label id="vencedor-selecionado">
 
-    </label>
-    </div>
 
-    <div>
-        <button onclick="reiniciar()">
-        Reiniciar
-    </button>
-    </div>
 
     <div class="footer">
         <footer>
             <p>&copy; Bellacosa Adventures 2021</p>
         </footer>
     </div>
-
-     <!-- O JOGO EM ACAO -->
-	<script src="./js/velha.js"></script>
 
 	<!-- Default Statcounter code for DIO Jogo da Velha
 		https://vagnerbellacosa.github.io/013_CriandoSeuProprioJogoDaVelhaComHTML_Javascript_CSS/
